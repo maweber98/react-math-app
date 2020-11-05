@@ -1,38 +1,81 @@
 .App {
-  text-align: center;
+  text-align: left;
+  /* padding-left: 40px; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.jumbotron-image {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./dwight-schrute-main2.jpg");
+  min-height: 800px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+.body {
+  margin-top: 0px;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 25px;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 170px;
+  color: black;
+}
+
+.isFalse {
+  font-size: 40px;
+  -webkit-animation-fill-mode:both;
+  -moz-animation-fill-mode:both;
+  -ms-animation-fill-mode:both;
+  -o-animation-fill-mode:both;
+  animation-fill-mode:both;
+  -webkit-animation-duration:2s;
+  -moz-animation-duration:2s;
+  -ms-animation-duration:2s;
+  -o-animation-duration:2s;
+  animation-duration:2s;  
+}
+
+.fadeOut{
+  opacity:0;
+  width:0;
+  height:0;
+  transition: width 0.5s 0.5s, height 0.5s 0.5s, opacity 0.5s;
+
+}
+
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+      -webkit-transform: translateX(-20px);
+  }   25% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+  }
+  75% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+  }
+  100% {
+      opacity: 0;
+      -webkit-transform: translateX(20px);
   }
 }
 
+.fadeInAnimation {
+	-webkit-animation-name: fadeInAnimation;
+	-moz-animation-name: fadeInAnimation;
+	-o-animation-name: fadeInAnimation;
+	animation-name: fadeInAnimation;
+}
+
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
