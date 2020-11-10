@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       {/* <div className="container"> */}
         <div className="jumbotron-image">
-        <MathComponent type="+"></MathComponent>
+        <MathComponent></MathComponent>
         </div>
       {/* </div> */}
     </div>
