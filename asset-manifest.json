@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-math-app/static/css/main.96db3ac8.chunk.css",
-    "main.js": "/react-math-app/static/js/main.883f650a.chunk.js",
-    "main.js.map": "/react-math-app/static/js/main.883f650a.chunk.js.map",
+    "main.css": "/react-math-app/static/css/main.099341f1.chunk.css",
+    "main.js": "/react-math-app/static/js/main.04c7f450.chunk.js",
+    "main.js.map": "/react-math-app/static/js/main.04c7f450.chunk.js.map",
     "runtime-main.js": "/react-math-app/static/js/runtime-main.0ad1ffed.js",
     "runtime-main.js.map": "/react-math-app/static/js/runtime-main.0ad1ffed.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/react-math-app/static/css/2.20aa2d7b.chunk.css",
@@ -12,15 +12,15 @@
     "static/js/3.2e98749e.chunk.js.map": "/react-math-app/static/js/3.2e98749e.chunk.js.map",
     "index.html": "/react-math-app/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/react-math-app/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.96db3ac8.chunk.css.map": "/react-math-app/static/css/main.96db3ac8.chunk.css.map",
+    "static/css/main.099341f1.chunk.css.map": "/react-math-app/static/css/main.099341f1.chunk.css.map",
     "static/js/2.b701a90f.chunk.js.LICENSE.txt": "/react-math-app/static/js/2.b701a90f.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/react-math-app/static/media/dwight-schrute-mobile.07464b04.jpg"
+    "static/media/App.css": "/react-math-app/static/media/dwight-schrute-mobile.101e84d9.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.0ad1ffed.js",
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.b701a90f.chunk.js",
-    "static/css/main.96db3ac8.chunk.css",
-    "static/js/main.883f650a.chunk.js"
+    "static/css/main.099341f1.chunk.css",
+    "static/js/main.04c7f450.chunk.js"
   ]
 }
