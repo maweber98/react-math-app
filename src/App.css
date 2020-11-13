@@ -12,6 +12,20 @@
   min-height: 800px;
 }
 
+@media only screen and (max-width: 600px) {
+
+  .jumbotron-image {
+    width: 100%; 
+    height: 100%; 
+    margin: 0; 
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./dwight-schrute-mobile.jpg");
+  }
+
+}
+
 
 .body {
   margin-top: 0px;

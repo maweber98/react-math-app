@@ -3,7 +3,7 @@ import './App.css';
 import MathComponent from './components/MathComponent';
 
 function App() {
-  
+
   return (
     <div className="App">
       {/* <div className="container"> */}

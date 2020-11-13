@@ -37,6 +37,8 @@ const MathComponent = (props) => {
             setId(uuidv4());
             e.target.name.value = '';
         }
+
+        window.scrollTo(0, 0);
     }
 
     // const getRandomKey = () => {
@@ -62,7 +64,7 @@ const MathComponent = (props) => {
             <Button variant="secondary" type="submit">Submit</Button>
             </form>
             <div key={id} className={isCorrect ? 'fadeOut':'isFalse fadeInAnimation'}>{isCorrect ? 'CORRECT' : 'FALSE' }</div>
-            <h3>Score: {score >= 10 ? 'You are now the smartest man alive!' : score}</h3>
+            <h3>Score: {score >= 10 ? 'You are the future!' : score}</h3>
         </div>
     )
 }
